@@ -1,7 +1,3 @@
-'''
-Author: Mr.Car
-Date: 2025-03-21 14:28:32
-'''
 import pinyin
 from typing import Dict
 

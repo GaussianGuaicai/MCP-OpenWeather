@@ -1,7 +1,3 @@
-'''
-Author: Mr.Car
-Date: 2025-03-20 20:18:33
-'''
 from fastmcp import FastMCP
 import httpx
 import os
@@ -17,7 +13,7 @@ load_dotenv()
 city_converter = CityNameConverter()
 
 # 初始化 FastMCP 服务器
-server = FastMCP()
+server = FastMCP("OpenWeatherMap")
 
 @server.tool()
 async def get_weather(
