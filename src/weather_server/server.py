@@ -25,7 +25,7 @@ async def get_weather(
     Get weather information for a specified city
     
     Args:
-        city: City name (supports Chinese or English, e.g., Suzhou, suzhou)
+        city: City name (supports Chinese or English, e.g., Suzhou, suzhou, NewYork, Shanghai, Guangzhou, Beijing)
         units: Temperature unit (metric: Celsius, imperial: Fahrenheit)
         lang: Response language (zh_cn: Chinese, en: English)
     
@@ -35,7 +35,7 @@ async def get_weather(
     获取指定城市的天气信息
     
     Args:
-        city: 城市名称（支持中文或英文，如：苏州、suzhou）
+        city: 城市名称（支持中文或英文，如：苏州、suzhou, NewYork, 纽约, 上海，广州，北京）
         units: 温度单位 (metric: 摄氏度, imperial: 华氏度)
         lang: 返回语言 (zh_cn: 中文, en: 英文)
     
@@ -100,7 +100,7 @@ async def get_weather_forecast(
     Get weather forecast information for a specified city
     
     Args:
-        city: City name (supports Chinese or English, e.g., Suzhou, suzhou)
+        city: City name (supports Chinese or English, e.g., Suzhou, suzhou, New York, Shanghai, Guangzhou, Beijing)
         days: Number of forecast days (up to 5 days)
         units: Temperature unit (metric: Celsius, imperial: Fahrenheit)
         lang: Response language (zh_cn: Chinese, en: English)
@@ -111,7 +111,7 @@ async def get_weather_forecast(
     获取指定城市的天气预报信息
     
     Args:
-        city: 城市名称（支持中文或英文，如：苏州、suzhou）
+        city: 城市名称（支持中文或英文，如：苏州、suzhou, New York, 纽约, 上海，广州，北京）
         days: 预报天数（最多5天）
         units: 温度单位 (metric: 摄氏度, imperial: 华氏度)
         lang: 返回语言 (zh_cn: 中文, en: 英文)
